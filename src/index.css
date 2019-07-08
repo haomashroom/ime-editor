@@ -1,0 +1,53 @@
+@import '~antd/dist/antd.css';
+@import "./style/base.css";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: auto;
+}
+
+.demo-infinite-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 8px 24px;
+  height: 300px;
+}
+.demo-loading {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+}
+.sidebar{
+  -webkit-box-shadow: 0 10px 40px #dad6d6;
+  box-shadow: 0 10px 40px #dad6d6;
+}
+.ant-card-cover{
+  min-height:167px !important;
+  max-height: 529px !important;
+}
+.ant-card-body {
+  /*padding: 10px !important;*/
+  zoom: 1;
+  border-top:1px solid #e8e8e8;
+}
+.ant-card-bordered{
+  border:1px solid #c8c8c8 !important;
+}
+
+
+.ant-card-meta-title{
+  font-size: 14px !important;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+.ant-card-meta-description{
+  font-size: 11px !important;
+  color: rgba(0, 0, 0, 0.45);
+  white-space:nowrap;
+}
